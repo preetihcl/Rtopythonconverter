@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+.main-container {
+    display: flex;
+    gap: 1rem;
+}
+.left-section, .right-section {
+    flex: 1;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.error-message {
+    margin-top: 1rem;
+}
+.api-key-container {
+    position: relative;
+}
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.form-section {
+    margin-top: 20px;
+}
+.form-section button {
+    width: 100%;
+}
